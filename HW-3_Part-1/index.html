@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>FacePuck</title>
+</head>
+<body>
+  <!--Шапка-->
+  <header>
+    <img src="images/logo.png" alt="Logo" width="60" height="40">
+    <h1>
+      FacePuck
+    </h1>
+  </header>
+  <main>
+    <!--Форма входа-->
+    <div>
+      <form action="feed.html" method="post">
+        <fieldset>
+          <legend>
+            <h2>
+              Войти
+            </h2>
+          </legend>
+          <label> Почта
+            <br>
+            <input type="email" name="email" placeholder="Ваша почта" required>
+          </label>
+          <br>
+          <label> Пароль
+            <br>
+            <input type="password" name="password" placeholder="Ваш пароль" required>
+          </label>
+          <br>
+          <input type="submit" name="submit" value="Войти">
+        </fieldset>
+      </form>
+    </div>
+    <!--Форма регистрации-->
+    <div>
+      <form action="feed.html" method="post">
+        <fieldset>
+          <legend>
+            <h2>
+              Регистрация
+            </h2>
+          </legend>
+          <label> Имя<br>
+            <input type="text" name="name" placeholder="Ваше имя" required>
+          </label>
+          <br>
+          <label> Почта<br>
+            <input type="email" name="email" placeholder="Ваша почта" required>
+          </label>
+          <br>
+          <label> Пароль<br>
+            <input type="password" name="password" placeholder="Ваш пароль" required>
+          </label>
+          <br>
+          <label> Подтверждение пароля<br>
+            <input type="password" name="repeated_password" placeholder="Подтвердите пароль" required>
+          </label>
+          <br>
+          <label> С порядком обработки персональных данных <b>Согласен</b>
+            <input type="checkbox" name="agreement" required checked>
+          </label>
+          <br>
+          <input type="submit" name="submit" value="Зарегистрироваться">
+        </fieldset>
+      </form>
+    </div>
+  </main>
+</body>
+</html>

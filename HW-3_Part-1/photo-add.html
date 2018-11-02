@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>New Post FacePuck</title>
+</head>
+<body>
+  <!--Шапка-->
+  <header>
+    <img src="images/logo.png" alt="Logo" width="60" height="40">
+    <h1>
+      FacePuck
+    </h1>
+  </header>
+  <main>
+    <!--Перейти на страницу ленты-->
+    <a href="feed.html"><h2>
+      Смотреть ленту
+    </h2></a>
+    <hr>
+    <!--Форма для публикации-->
+    <div>
+      <form action="feed.html" method="post">
+        <label><b>Выберите фото или видео для публикации <br>(Допустимые форматы: jpg, png, mp4)</b><br>
+          <input type="file" name="file" accept="image/jpg,image/png,video/mp4">
+        </label>
+        <br>
+        <label><b>Текст поста</b><br>
+          <textarea cols="40" rows="5" name="text" placeholder="Ваш текст..."></textarea>
+        </label>
+        <br>
+        <button name="submit">
+          Опубликовать
+        </button>
+      </form>
+    </div>
+  </main>
+</body>
+</html>
