@@ -11,3 +11,5 @@
 [Домашнее задание 3 ч2](https://github.com/AdukarIT/AkulovichVL/tree/master/HW-3_Part-2 "Папка HW-3_Part-2")
 ## CSS. Позиционирование
 [Домашнее задание 4](https://github.com/AdukarIT/AkulovichVL/tree/master/HW-4 "Папка HW-4")
+## Float. Псевдоклассы и составные селекторы
+[Домашнее задание 5](https://github.com/AdukarIT/AkulovichVL/tree/master/HW-5 "Папка HW-5")
