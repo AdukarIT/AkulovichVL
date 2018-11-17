@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Заказ товара</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <header>
+    <img class="logo" src="images/logo.png" alt="Logo">
+    <h1 class="name-company">
+      ЗАКАЗУХА
+    </h1>
+  </header>
+  <main>
+    <!--Начало меню -->
+    <div class="menu">
+      <ul class="menu-list all-list">
+        <li class="menu-list__item all-item">
+          <a class="all-item__text" href="#">Бытовая техника &#11015;</a>
+          <ul class="list-inside all-list">
+            <li class="list-inside__item all-item"><a class="all-item__text" href="#">Стиральные машины</a></li>
+            <li class="list-inside__item all-item"><a class="all-item__text" href="#">Пылесосы</a></li>
+            <li class="list-inside__item all-item"><a class="all-item__text" href="#">Швейные, вышивальные машины</a></li>
+            <li class="list-inside__item all-item"><a class="all-item__text" href="#">Утюги</a></li>
+            <li class="list-inside__item all-item"><a class="all-item__text" href="#">Электровеники</a></li>
+            <li class="list-inside__item all-item"><a class="all-item__text" href="#">Сушилки для обуви</a></li>
+          </ul>
+        </li>
+        <li class="menu-list__item all-item">
+          <a class="all-item__text" href="#">Техника для кухни &#11015;</a>
+          <ul class="list-inside all-list">
+            <li class="list-inside__item all-item"><a class="all-item__text" href="#">Холодильники</a></li>
+            <li class="list-inside__item all-item"><a class="all-item__text" href="#">Кухонные плиты</a></li>
+            <li class="list-inside__item all-item"><a class="all-item__text" href="#">Морозильники</a></li>
+            <li class="list-inside__item all-item"><a class="all-item__text" href="#">Настольные плиты</a></li>
+            <li class="list-inside__item all-item"><a class="all-item__text" href="#">Ростеры, мини-печи</a></li>
+            <li class="list-inside__item all-item"><a class="all-item__text" href="#">Вытяжки</a></li>
+            <li class="list-inside__item all-item"><a class="all-item__text" href="#">Микроволновые печи</a></li>
+          </ul>
+        </li>
+        <li class="menu-list__item all-item">
+          <a class="all-item__text" href="#">Компьютерная техника &#11015;</a>
+          <ul class="list-inside all-list">
+            <li class="list-inside__item all-item"><a class="all-item__text" href="#">Ноутбуки</a></li>
+            <li class="list-inside__item all-item"><a class="all-item__text" href="#">Планшеты</a></li>
+            <li class="list-inside__item all-item"><a class="all-item__text" href="#">Компьютеры, моноблоки</a></li>
+            <li class="list-inside__item all-item"><a class="all-item__text" href="#">Игровые приставки</a></li>
+            <li class="list-inside__item all-item"><a class="all-item__text" href="#">Серверное оборудование</a></li>
+          </ul>
+        </li>
+        <li class="menu-list__item all-item">
+          <a class="all-item__text" href="#">Корзина</a>
+        </li>
+      </ul>
+    </div>
+    <!--Окончание меню -->
+    <!--Форма отправки -->
+    <div class="order-form">
+      <form action="cart.html" method="post">
+        <fieldset>
+          <legend class="field-name">
+            <b>Заказать товар</b>
+          </legend>
+          <p class="string-form"><label class="string-form__caption" for="second-name">Фамилия</label><input class="string-form__input" id="second-name" type="text" placeholder="Фамилия" required></p>
+          <p class="string-form"><label class="string-form__caption" for="first-name">Имя</label><input class="string-form__input" id="first-name" type="text" placeholder="Имя" required></p>
+          <p class="string-form"><label class="string-form__caption" for="phone-number">Номер телефона</label><input class="string-form__input" id="phone-number" type="tel" placeholder="+375-xx-xxx-xx-xx" required></p>
+          <p class="string-form"><label class="string-form__caption" for="email">E-mail</label><input class="string-form__input" id="email" type="email" placeholder="email@email.email" required></p>
+          <fieldset>
+            <legend class="field-name"><b>Получение заказа</b></legend>
+              <div>
+                <label for="deliver_pickup">Самовывоз со склада по адресу: г.Минск, Немига, 12</label>
+                <input class="pickup" type="radio" id="deliver_pickup" name="deliver" checked>
+                <label for="deliver_courier">Доставка курьером по Минску</label>
+                <input class="courier" type="radio" id="deliver_courier" name="deliver">
+                <p class="map">
+                  <iframe class="map__picture" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2350.675094834899!2d27.5478845207846!3d53.9019785852907!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcfebf8e13961%3A0x30ddb25177df6581!2z0YPQu9C40YbQsCDQndC10LzQuNCz0LAgMTIsINCc0LjQvdGB0Lo!5e0!3m2!1sru!2sby!4v1542196175188" width="700" height="400" allowfullscreen></iframe>
+                </p>
+                <p class="string-form input-address"><label class="string-form__caption" for="address">Введите адрес доставки</label><input class="string-form__input" id="address" type="text" placeholder="Адрес доставки" required></p>
+              </div>
+          </fieldset>
+            <p><b>Дополнительная информация по заказу:</b></p>
+            <textarea class="comment" name="comment" cols="50" rows="5"></textarea>
+            <div>
+            <label class="agreement" for="agreement">Я ознакомлен и согласен с условиями доставки</label>
+            <input id="agreement" type="checkbox" required>
+            <button class="confirm">Подтвердить заказ</button>
+            </div>
+        </fieldset>
+      </form>
+    </div>
+    <!--Форма отправки -->
+  </main>
+  <footer>
+    <div>
+      <h2>Контакты:</h2>
+      <p>Время работы магазина: 00:05 - 23:55 (ежедневно, без выходных).</p>
+      <p>Адрес офиса: Минская область, д.Куль, 5.</p>
+      <p>Контактные телефоны: +375-99-999-99-99, +375-88-888-88-88.</p>
+      <p>Skype: PugoVka_otorvalasya</p>
+    </div>
+  </footer>
+</body>
+</html>

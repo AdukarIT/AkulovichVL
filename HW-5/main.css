@@ -1,0 +1,176 @@
+body {
+  background-color: #C7E4B9;
+  margin: 0;
+}
+
+header {
+  position: relative;
+  padding-bottom: 10px;
+  padding-left: 20px;
+}
+
+.logo {
+  width: 50px;
+  height: 44px;
+}
+
+.name-company {
+  display: inline;
+  position: relative;
+}
+/*header*/
+/*main menu*/
+
+.menu {
+  background-color: #D9D9EC;
+  padding: 20px;
+  border-top: 2px solid #3B3CE3;
+}
+
+.all-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.all-item:hover {
+  background-color: #3B3CE3;
+}
+
+.all-item:hover > .all-item__text {
+  color: #fff;
+}
+
+.all-item__text {
+  text-decoration: none;
+  color: #3B3CE3;
+}
+
+.menu-list__item {
+  display: inline-block;
+  border: 2px solid #3B3CE3;
+  border-radius: 5px;
+  line-height: 1.5em;
+  position: relative;
+}
+
+.list-inside {
+  display: none;
+  position: absolute;
+  border: 1px solid #3B3CE3;
+  border-radius: 5px;
+  background-color: #D9D9EC;
+  z-index: 1;
+}
+
+.list-inside__item:not(:last-of-type) {
+  border-bottom: 2px solid #3B3CE3;
+}
+
+.menu-list__item:hover .list-inside {
+  display:block;
+}
+
+/*main menu*/
+/*main order*/
+
+.order-form {
+  background-color: #DDCFE8;
+  border-top: 2px solid #9B65C8;
+  padding: 10px;
+}
+
+.field-name {
+  color: #9B65C8;
+  font-size: 1.5em;
+}
+
+.string-form {
+  padding: 10px;
+  font-weight: bold;
+  width: 60%;
+}
+
+.string-form__caption, .string-form__input {
+  display: inline-block;
+}
+
+.string-form__caption {
+  width: 35%;
+  box-sizing: border-box;
+  background-color: #EDDFF8;
+  padding: 10px;
+}
+
+.string-form__input {
+  width: 65%;
+  box-sizing: border-box;
+  border: 2px solid #9B65C8;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+/* Поля ввода */
+/* Карта или адрес */
+
+.map {
+  display: none;
+}
+
+.map__picture {
+  border: 2px solid #9B65C8;
+  border-radius: 5px;
+}
+
+.pickup:checked~.map {
+  display: block;
+}
+
+.input-address {
+  display: none;
+}
+
+.courier:checked~.input-address {
+  display: block;
+}
+
+.comment {
+  border: 2px solid #9B65C8;
+  padding: 10px;
+}
+
+.agreement {
+  display: inline-block;
+  padding: 15px;
+  padding-bottom: 0;
+  margin-bottom: 15px;
+  border-bottom: 2px solid red;
+}
+
+.confirm {
+  display: none;
+  font-weight: bold;
+  color: #fff;
+  background-color: #9B65C8;
+  border: 0;
+  border-radius: 5px;
+  width: 30%;
+  height: 3em;
+}
+
+.confirm:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+#agreement:checked~.confirm{
+  display: block;
+}
+
+/* main order */
+/* footer contacts */
+
+footer {
+  border-top: 2px solid #2FA239;
+  padding-left: 30px;
+}
