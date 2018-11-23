@@ -13,3 +13,11 @@
 [Домашнее задание 4](https://github.com/AdukarIT/AkulovichVL/tree/master/HW-4 "Папка HW-4")
 ## Float. Псевдоклассы и составные селекторы
 [Домашнее задание 5](https://github.com/AdukarIT/AkulovichVL/tree/master/HW-5 "Папка HW-5")
+## Изображения. Шрифты и иконки
+[Домашнее задание 6 ч1](https://github.com/AdukarIT/AkulovichVL/tree/master/HW-6_Part-1 "Папка HW-6_Part-1")
+
+[Домашнее задание 6 ч2](https://github.com/AdukarIT/AkulovichVL/tree/master/HW-6_Part-2 "Папка HW-6_Part-2")
+
+[Домашнее задание 6 ч3](https://github.com/AdukarIT/AkulovichVL/tree/master/HW-6_Part-3 "Папка HW-6_Part-3")
+
+[Домашнее задание 6 ч4](https://github.com/AdukarIT/AkulovichVL/tree/master/HW-6_Part-4 "Папка HW-6_Part-4")
