@@ -1,0 +1,28 @@
+@font-face {
+  font-family: 'fontello';
+  src: url('./font/fontello.eot?34534191');
+  src: url('./font/fontello.eot?34534191#iefix') format('embedded-opentype'),
+    url('./font/fontello.woff?34534191') format('woff'),
+    url('./font/fontello.ttf?34534191') format('truetype'),
+    url('./font/fontello.svg?34534191#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.stylized-form__icon {
+  font-family: "fontello";
+  font-style: normal;
+  font-size: 2em;
+}
+
+.icon-checked, .stylized-form__box {
+  display: none;
+}
+
+.stylized-form__box:checked ~ .icon-empty {
+  display: none;
+}
+
+.stylized-form__box:checked ~ .icon-checked {
+  display: inline;
+}
