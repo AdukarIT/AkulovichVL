@@ -1,0 +1,144 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+}
+
+header {
+  height: 632px;
+  background-image: url('https://static.tildacdn.com/tild3566-3137-4638-a432-643863316231/land-ct.jpg');
+  background-size: cover;
+}
+
+.brightness {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(46,18,18,0.6));
+}
+
+.header-top {
+  padding: 32px 40px 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-image {
+  width: 150px;
+  height: auto;
+}
+
+.link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 700;
+  padding-left: 25px;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.contacts__phone-link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 300;
+  padding-right: 25px;
+  position: relative;
+  bottom: 8px;
+}
+
+.social {
+  padding-left: 5px;
+}
+
+/* ^^^^ header-top */
+
+.title {
+  color: #fff;
+  font-size: 50px;
+  line-height: 1.05em;
+  font-weight: 600;
+  text-align: center;
+  margin: 0;
+}
+
+.call {
+  color: #fff;
+  font-size: 25px;
+  line-height: 1.05em;
+  font-weight: 300;
+  text-align: center;
+  font-style: italic;
+  text-transform: none;
+}
+
+/* ^^^^ Title */
+
+.interest {
+  width: 68%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 70px;
+}
+
+.offer {
+  width: 30%;
+}
+
+.offer__image {
+  float: left;
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+}
+
+.offer__text {
+  color: #fff;
+  font-size: 18px;
+  line-height: 1.55em;
+  font-weight: 400;
+  position: relative;
+  bottom: 15px;
+}
+
+/* ^^^^ Advertising */
+
+.sign-up {
+  width: 300px;
+  margin: auto;
+  margin-top: 48px;
+}
+
+.sign-up__text {
+  color: #fff;
+  font-size: 20px;
+  line-height: 1.05em;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 12px;
+  text-transform: none;
+}
+
+.sign-up__button {
+  width: 100%;
+  background-color: #ee5555;
+  border: 1px solid #e55;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 18px;
+  line-height: 1.55em;
+  font-weight: 500;
+  padding: 7px 0;
+  text-transform: uppercase;
+}
+
+.sign-up__link:hover .sign-up__button {
+  background-color: #fff;
+  color: #e55;
+  cursor: pointer;
+}
