@@ -21,3 +21,7 @@
 [Домашнее задание 6 ч3](https://github.com/AdukarIT/AkulovichVL/tree/master/HW-6_Part-3 "Папка HW-6_Part-3")
 
 [Домашнее задание 6 ч4](https://github.com/AdukarIT/AkulovichVL/tree/master/HW-6_Part-4 "Папка HW-6_Part-4")
+## Flexbox
+[Домашнее задание 7 ч1](https://github.com/AdukarIT/AkulovichVL/tree/master/HW-7_Part-1 "Папка HW-7_Part-1")
+
+[Домашнее задание 7 ч2](https://github.com/AdukarIT/AkulovichVL/tree/master/HW-7_Part-2 "Папка HW-7_Part-2")
