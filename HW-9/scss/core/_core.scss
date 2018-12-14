@@ -1,0 +1,8 @@
+$dark_blue: #101b44;
+$border_bottom: 2px solid #fff;
+@mixin flexbox($display, $direction, $justify) {
+  display: $display;
+  flex-direction: $direction;
+  justify-content: $justify;
+  align-items: center;
+}

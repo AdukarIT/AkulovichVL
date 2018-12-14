@@ -1,0 +1,6 @@
+.content-box {
+  @include flexbox(none, column, flex-start);
+  width: 80%;
+  border-bottom: $border_bottom;
+  margin-top: 30px;
+}

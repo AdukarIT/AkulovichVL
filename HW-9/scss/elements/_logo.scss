@@ -1,0 +1,10 @@
+.logo {
+  border-bottom: $border_bottom;
+  @include flexbox(flex, row, center);
+
+  .logo__image {
+    width: 30px;
+    height: 30px;
+    margin-right: 30px;
+  }
+}

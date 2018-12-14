@@ -1,0 +1,8 @@
+body {
+  background: linear-gradient(to right, #fff, $dark_blue);
+  font-family: 'Roboto', sans-serif;
+  height: 100%;
+
+  @import "_header.scss";
+  @import "_content_main.scss";
+}

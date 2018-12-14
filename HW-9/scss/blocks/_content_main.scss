@@ -1,0 +1,7 @@
+main {
+  @include flexbox(flex, column, center);
+
+  @import "../elements/_checkbox.scss";
+  @import "../elements/_content_box.scss";
+  @import "../elements/_reviews.scss";
+}

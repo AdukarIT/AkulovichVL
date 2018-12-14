@@ -1,0 +1,23 @@
+.menu {
+  @include flexbox(flex, row, center);
+  font-size: 2em;
+  border-bottom: $border_bottom;
+
+  .menu-item {
+    text-decoration: none;
+    margin: 20px;
+    background-color: $dark_blue;
+    border-radius: 10px;
+    color: #fff;
+    border: 2px solid $dark_blue;
+    transition: 1s ease;
+
+    &:hover {
+      color: $dark_blue;
+      background-color: #fff;
+    }
+    .menu-item__text {
+      cursor: pointer;
+    }
+  }
+}

@@ -1,0 +1,14 @@
+.checkbox {
+  display: none;
+}
+.menu-input-checkbox {
+  &-services:checked ~ .services {
+    display: flex;
+  }
+  &-devices:checked ~ .devices {
+    display: flex;
+  }
+  &-contacts:checked ~ .contacts {
+    display: flex;
+  }
+}
