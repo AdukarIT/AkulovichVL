@@ -25,12 +25,7 @@
 [Домашнее задание 7 ч1](https://github.com/AdukarIT/AkulovichVL/tree/master/HW-7_Part-1 "Папка HW-7_Part-1")
 
 [Домашнее задание 7 ч2](https://github.com/AdukarIT/AkulovichVL/tree/master/HW-7_Part-2 "Папка HW-7_Part-2")
-
-## ДЗ 1 + css и scss
-[index + main.css](https://jsfiddle.net/ue1kLvj9/)
-
-[comments + main.css](https://jsfiddle.net/m5v4xsjk/)
-
-[index + main.scss](https://jsfiddle.net/dkm7ecnh/)
-
-[files of project](https://drive.google.com/drive/folders/1OcrDuG6PyaE49ZKDaNiw2sSyN26tYDcd?usp=sharing)
+## Эффекты. Анимация
+[Домашнее задание 8](https://github.com/AdukarIT/AkulovichVL/tree/master/HW-8 "Папка HW-8")
+## SCSS
+[Домашнее задание 9 (исправленное Задание 1)](https://github.com/AdukarIT/AkulovichVL/tree/master/HW-9 "Папка HW-9")
