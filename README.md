@@ -29,3 +29,5 @@
 [Домашнее задание 8](https://github.com/AdukarIT/AkulovichVL/tree/master/HW-8 "Папка HW-8")
 ## SCSS
 [Домашнее задание 9 (исправленное Задание 1)](https://github.com/AdukarIT/AkulovichVL/tree/master/HW-9 "Папка HW-9")
+## node.js + npm + sass
+[Домашнее задание 10](https://github.com/AdukarIT/AkulovichVL/tree/master/HW-10 "Папка HW-10")
