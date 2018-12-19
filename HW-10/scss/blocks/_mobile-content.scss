@@ -1,0 +1,92 @@
+.content-mobile {
+  display: none;
+  margin-top: 2.8em;
+
+  &-string {
+    display: flex;
+    margin-bottom: 5em;
+
+    .odd-string-empty {
+      width: 38%;
+      height: 15.35em;
+      background: $mobile-string-background;
+    }
+    .odd-string-full {
+      background: url('http://designclub.by/img/BG_elem_left.png') no-repeat;
+      margin: -1px;
+      width: 255px;
+      height: 250px;
+      @include flex(column, center, center);
+
+      .odd-string-icon-left {
+        font-family: $font_icon;
+        font-style: normal;
+        font-size: 2em;
+        margin-left: -.3em;
+      }
+      .odd-string-title-left {
+        font-size: 1.25em;
+        margin: .8em 0 .8em -.8em;
+        font-weight: 400;
+        color: $font_item_title_color;
+      }
+      .odd-string-text-left {
+        font-size: .9em;
+        margin-left: -1.5em;
+        width: 13.3em;
+        text-align: center;
+      }
+    }
+    .even-string-empty {
+      width: 45%;
+      height: 15.35em;
+      background: $mobile-string-background;
+      z-index: 1;
+    }
+    .even-string-full {
+      background: url('http://designclub.by/img/BG_elem_mob_right.png') no-repeat;
+      width: 258px;
+      height: 250px;
+      margin-left: 34%;
+      @include flex(column, center, center);
+      z-index: 2;
+
+      .even-string-icon-right {
+        font-family: $font_icon;
+        font-style: normal;
+        font-size: 2em;
+        margin-right: -2em;
+      }
+      .even-string-title-right {
+        font-size: 1.25em;
+        margin: .8em -3em .8em 0;
+        font-weight: 400;
+        color: $font_item_title_color;
+      }
+      .even-string-text-right {
+        font-size: .9em;
+        margin-right: -4em;
+        width: 17em;
+        text-align: center;
+      }
+    }
+  }
+  &__link {
+  display: block;
+  box-sizing: content-box;
+	text-align: center;
+	margin: 2em 35% 0 35%;
+	padding-top: 1.2em;
+	width: 13em;
+	height: 60px;
+	background: #000;
+	border-radius: .3em;
+	border: 0;
+	color: $mobile-button-color;
+	font-weight: 400;
+	font-size: 1.5em;
+	text-decoration: none;
+	cursor: pointer;
+	outline:none;
+  }
+}

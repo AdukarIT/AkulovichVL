@@ -1,0 +1,89 @@
+.center-column {
+  text-align: center;
+  color: #000;
+  padding: 0 2em;
+  @include flex(column, center, center);
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+
+    to {
+      opacity: 1;
+    }
+  }
+  .central-logo {
+    @include animation(fadeIn, 4s, 1s, both);
+  }
+  &-logo {
+    width: 21.5em;
+    margin-top: 3em;
+  }
+  &-name-top {
+    font-size: 5.3em;
+    font-family: $font_logo;
+    text-transform: uppercase;
+    letter-spacing: -3.5px;
+    cursor: default;
+  }
+  &-name-bottom {
+    font-size: 3em;
+    font-family: $font_logo;
+    text-transform: uppercase;
+    letter-spacing: 1.42em;
+    width: 7.3em;
+    cursor: default;
+  }
+  &-text {
+    font-size: 1em;
+    margin: 0;
+    margin-top: 2em;
+    width: 22em;
+  }
+  &-link {
+    margin-top: 2em;
+    padding-top: 5px;
+    width: 14em;
+    height: 47px;
+    background: #000;
+    border-radius: .3em;
+    border: 0;
+    color: $mobile-button-color;
+    font-weight: 400;
+    font-size: 1.5em;
+    text-decoration: none;
+    cursor: pointer;
+    outline: none;
+    transition: ease-out 1s;
+
+    &:hover {
+      background: $font_standard_color;
+    }
+  }
+  &-social {
+    font-size: 5.3em;
+    text-transform: uppercase;
+
+    &__link {
+      display: inline-block;
+      font-family: $font_icon;
+      margin-top: 2.2em;
+      font-size: 0.6em;
+      padding-right: .5em;
+      text-decoration: none;
+      transition: ease-out 0.5s;
+      text-transform: uppercase;
+      color: #000;
+
+      &:last-of-type {
+        padding-right: 0;
+      }
+      &:hover {
+        margin-top: 1em;
+      	font-size: .8em;
+      	color: $font_standard_color;
+      }
+    }
+  }
+}

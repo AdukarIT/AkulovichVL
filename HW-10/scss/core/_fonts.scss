@@ -1,0 +1,17 @@
+$font_standard: 'Open Sans', sans-serif;
+$font_logo: 'BankGothicMedium', sans-serif;
+$font_icon: 'fontello';
+
+@font-face {
+  font-family: 'fontello';
+  src: url('../fonts/fontello.woff?25819118') format('woff'),
+       url('../fonts/fontello.woff2?25819118') format('woff2'),
+       url('../fonts/fontello.svg?25819118#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+    }
+
+@font-face {
+  font-family: 'BankGothicMedium';
+  src: url('../fonts/BankGothicMedium.ttf');
+}

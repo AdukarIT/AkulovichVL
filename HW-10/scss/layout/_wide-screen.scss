@@ -1,0 +1,52 @@
+@media screen and (max-width : 1200px) {
+  body {
+
+    .content {
+  		width: 100%;
+  		margin: 0;
+  		padding: 0;
+  		padding-bottom: 1.2em;
+  		background: $common_mobile_background;
+  		border-radius: 0;
+  		flex-direction: column;
+
+      .center-column {
+        &-text {
+          margin-top: 1em;
+        }
+        &-link {
+          box-sizing: content-box;
+          margin-top: 3em;
+      		padding-top: 25px;
+      		width: 13em;
+      		height: 60px;
+
+          &:hover {
+            background: #000;
+          }
+        }
+        &-social {
+          &__link {
+            margin-top: 1.7em;
+        		font-size: .7em;
+          }
+        }
+    	}
+      .left-column {
+        display: none;
+      }
+      .right-column {
+        display: none;
+      }
+  	}
+    .content-mobile {
+      display: block;
+
+      &-string {
+        .even-string-full {
+          margin-left: 35%;
+        }
+      }
+    }
+  }
+}

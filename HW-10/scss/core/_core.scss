@@ -1,0 +1,21 @@
+$font_standard_color: #646464;
+$font_item_title_color: #383838;
+$content_shadow: -7px 7px 25px 0px rgba(0,0,0,0.37);
+$common_background: linear-gradient(to bottom left, #e8e8eb, #f5f6f6);
+$common_mobile_background: #f0f1f2;
+$mobile-string-background: #e9eae9;
+$mobile-button-color: #eff0f1;
+
+@mixin animation ($name, $duration, $delay, $fill_mode) {
+  animation-name: $name;
+  animation-duration: $duration;
+  animation-delay: $delay;
+  animation-fill-mode: $fill_mode;
+}
+
+@mixin flex ($direction, $justify, $align) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justify;
+  align-items: $align;
+}

@@ -1,0 +1,464 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "fontello";
+  src: url("../fonts/fontello.woff?25819118") format("woff"), url("../fonts/fontello.woff2?25819118") format("woff2"), url("../fonts/fontello.svg?25819118#fontello") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "BankGothicMedium";
+  src: url("../fonts/BankGothicMedium.ttf");
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #646464;
+  font-weight: 300;
+}
+body .content {
+  width: 93%;
+  margin: 2% 3%;
+  background: linear-gradient(to bottom left, #e8e8eb, #f5f6f6);
+  border-radius: 2em;
+  border: 1px solid #e0e0e0;
+  box-shadow: -7px 7px 25px 0px rgba(0, 0, 0, 0.37);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+body .content .left-column {
+  margin: 1.8em 0 1.8em 2em;
+  animation-name: fadeInLeft;
+  animation-duration: 1s;
+  animation-delay: 0;
+  animation-fill-mode: both;
+}
+body .content .left-column-item {
+  background: url("http://designclub.by/img/BG_elem_left.png") no-repeat;
+  width: 255px;
+  height: 250px;
+  margin-bottom: 2em;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body .content .left-column-item:last-of-type {
+  margin-bottom: 0;
+}
+body .content .left-column-item:hover .inside-element {
+  color: #000;
+}
+body .content .left-column-item .inside-element {
+  transition: ease-out 1s;
+}
+body .content .left-column-item__icon {
+  font-family: "fontello";
+  font-style: normal;
+  position: absolute;
+  top: 1.2em;
+  left: 3.42em;
+  font-size: 2em;
+}
+body .content .left-column-item__title {
+  margin: 0.8em 0 0.8em -0.8em;
+  font-weight: 400;
+  font-size: 1.25em;
+  color: #383838;
+}
+body .content .left-column-item__text {
+  margin-left: -1.5em;
+  width: 13.3em;
+  font-size: 0.9em;
+  text-align: center;
+}
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translate3d(-100%, 0, 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+body .content .right-column {
+  margin: 1.8em 2em 1.8em 0;
+  animation-name: fadeInRight;
+  animation-duration: 1s;
+  animation-delay: 0;
+  animation-fill-mode: both;
+}
+body .content .right-column-item {
+  background: url("http://designclub.by/img/BG_elem_right.png") no-repeat;
+  width: 284px;
+  height: 250px;
+  margin-bottom: 2em;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body .content .right-column-item:last-of-type {
+  margin-bottom: 0;
+}
+body .content .right-column-item:hover .inside-element {
+  color: #000;
+  transition: ease-out 1s;
+}
+body .content .right-column-item__icon {
+  font-family: "fontello";
+  position: absolute;
+  top: 1.2em;
+  right: 3.42em;
+  font-size: 2em;
+  font-style: normal;
+}
+body .content .right-column-item__title {
+  margin: 0.8em -1.5em 0.8em 0;
+  font-weight: 400;
+  font-size: 1.25em;
+  color: #383838;
+}
+body .content .right-column-item__text {
+  margin-right: -2em;
+  width: 17em;
+  font-size: 0.9em;
+  text-align: center;
+}
+body .content .right-column-item__text .inside-element__link {
+  color: #000;
+}
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translate3d(100%, 0, 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+body .content .center-column {
+  text-align: center;
+  color: #000;
+  padding: 0 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+body .content .center-column .central-logo {
+  animation-name: fadeIn;
+  animation-duration: 4s;
+  animation-delay: 1s;
+  animation-fill-mode: both;
+}
+body .content .center-column-logo {
+  width: 21.5em;
+  margin-top: 3em;
+}
+body .content .center-column-name-top {
+  font-size: 5.3em;
+  font-family: "BankGothicMedium", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: -3.5px;
+  cursor: default;
+}
+body .content .center-column-name-bottom {
+  font-size: 3em;
+  font-family: "BankGothicMedium", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1.42em;
+  width: 7.3em;
+  cursor: default;
+}
+body .content .center-column-text {
+  font-size: 1em;
+  margin: 0;
+  margin-top: 2em;
+  width: 22em;
+}
+body .content .center-column-link {
+  margin-top: 2em;
+  padding-top: 5px;
+  width: 14em;
+  height: 47px;
+  background: #000;
+  border-radius: 0.3em;
+  border: 0;
+  color: #eff0f1;
+  font-weight: 400;
+  font-size: 1.5em;
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+  transition: ease-out 1s;
+}
+body .content .center-column-link:hover {
+  background: #646464;
+}
+body .content .center-column-social {
+  font-size: 5.3em;
+  text-transform: uppercase;
+}
+body .content .center-column-social__link {
+  display: inline-block;
+  font-family: "fontello";
+  margin-top: 2.2em;
+  font-size: 0.6em;
+  padding-right: 0.5em;
+  text-decoration: none;
+  transition: ease-out 0.5s;
+  text-transform: uppercase;
+  color: #000;
+}
+body .content .center-column-social__link:last-of-type {
+  padding-right: 0;
+}
+body .content .center-column-social__link:hover {
+  margin-top: 1em;
+  font-size: 0.8em;
+  color: #646464;
+}
+body .content-mobile {
+  display: none;
+  margin-top: 2.8em;
+}
+body .content-mobile-string {
+  display: flex;
+  margin-bottom: 5em;
+}
+body .content-mobile-string .odd-string-empty {
+  width: 38%;
+  height: 15.35em;
+  background: #e9eae9;
+}
+body .content-mobile-string .odd-string-full {
+  background: url("http://designclub.by/img/BG_elem_left.png") no-repeat;
+  margin: -1px;
+  width: 255px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body .content-mobile-string .odd-string-full .odd-string-icon-left {
+  font-family: "fontello";
+  font-style: normal;
+  font-size: 2em;
+  margin-left: -0.3em;
+}
+body .content-mobile-string .odd-string-full .odd-string-title-left {
+  font-size: 1.25em;
+  margin: 0.8em 0 0.8em -0.8em;
+  font-weight: 400;
+  color: #383838;
+}
+body .content-mobile-string .odd-string-full .odd-string-text-left {
+  font-size: 0.9em;
+  margin-left: -1.5em;
+  width: 13.3em;
+  text-align: center;
+}
+body .content-mobile-string .even-string-empty {
+  width: 45%;
+  height: 15.35em;
+  background: #e9eae9;
+  z-index: 1;
+}
+body .content-mobile-string .even-string-full {
+  background: url("http://designclub.by/img/BG_elem_mob_right.png") no-repeat;
+  width: 258px;
+  height: 250px;
+  margin-left: 34%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+body .content-mobile-string .even-string-full .even-string-icon-right {
+  font-family: "fontello";
+  font-style: normal;
+  font-size: 2em;
+  margin-right: -2em;
+}
+body .content-mobile-string .even-string-full .even-string-title-right {
+  font-size: 1.25em;
+  margin: 0.8em -3em 0.8em 0;
+  font-weight: 400;
+  color: #383838;
+}
+body .content-mobile-string .even-string-full .even-string-text-right {
+  font-size: 0.9em;
+  margin-right: -4em;
+  width: 17em;
+  text-align: center;
+}
+body .content-mobile__link {
+  display: block;
+  box-sizing: content-box;
+  text-align: center;
+  margin: 2em 35% 0 35%;
+  padding-top: 1.2em;
+  width: 13em;
+  height: 60px;
+  background: #000;
+  border-radius: 0.3em;
+  border: 0;
+  color: #eff0f1;
+  font-weight: 400;
+  font-size: 1.5em;
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+}
+
+@media screen and (max-width: 1200px) {
+  body .content {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 1.2em;
+    background: #f0f1f2;
+    border-radius: 0;
+    flex-direction: column;
+  }
+  body .content .center-column-text {
+    margin-top: 1em;
+  }
+  body .content .center-column-link {
+    box-sizing: content-box;
+    margin-top: 3em;
+    padding-top: 25px;
+    width: 13em;
+    height: 60px;
+  }
+  body .content .center-column-link:hover {
+    background: #000;
+  }
+  body .content .center-column-social__link {
+    margin-top: 1.7em;
+    font-size: 0.7em;
+  }
+  body .content .left-column {
+    display: none;
+  }
+  body .content .right-column {
+    display: none;
+  }
+  body .content-mobile {
+    display: block;
+  }
+  body .content-mobile-string .even-string-full {
+    margin-left: 35%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  body .content .center-column {
+    padding-left: 0;
+  }
+  body .content .center-column-logo {
+    width: 45em;
+    padding-top: 7em;
+  }
+  body .content .center-column-name-top {
+    font-size: 10.8em;
+    padding-top: 0.1em;
+  }
+  body .content .center-column-name-bottom {
+    font-size: 6.1em;
+    letter-spacing: 1.48em;
+    margin-right: 0.2em;
+  }
+  body .content .center-column-text {
+    padding: 1em 1% 0 2%;
+    font-size: 1em;
+    width: 95%;
+  }
+  body .content .center-column-link {
+    margin-top: 2em;
+    padding-top: 50px;
+    width: 11em;
+    height: 140px;
+    font-size: 3.5em;
+    box-sizing: content-box;
+  }
+  body .content .center-column-social {
+    font-size: 10.8em;
+    padding-top: 0.1em;
+  }
+  body .content .center-column-social__link {
+    margin-top: 0.7em;
+    padding-right: 0.1em;
+    font-size: 0.8em;
+  }
+  body .content-mobile {
+    margin-top: 5em;
+  }
+  body .content-mobile-string {
+    margin-bottom: 5em;
+  }
+  body .content-mobile-string .odd-string-empty {
+    width: 44%;
+  }
+  body .content-mobile-string .odd-string-full .odd-string-icon-left {
+    font-size: 7em;
+    position: absolute;
+    left: 0.8em;
+  }
+  body .content-mobile-string .odd-string-full .odd-string-title-left {
+    font-size: 3em;
+    margin: 0.4em 6.2em 0.4em 0;
+  }
+  body .content-mobile-string .odd-string-full .odd-string-text-left {
+    font-size: 1.8em;
+    margin-right: 9em;
+  }
+  body .content-mobile-string .even-string-full {
+    margin-left: 18em;
+  }
+  body .content-mobile-string .even-string-full .even-string-icon-right {
+    font-size: 7em;
+    position: absolute;
+    right: 2.2em;
+  }
+  body .content-mobile-string .even-string-full .even-string-title-right {
+    font-size: 3em;
+    margin: 0.4em -8em 0.4em 0;
+  }
+  body .content-mobile-string .even-string-full .even-string-text-right {
+    font-size: 1.8em;
+    margin-right: -12em;
+  }
+  body .content-mobile-string .even-string-empty {
+    width: 52%;
+  }
+  body .content-mobile__link {
+    box-sizing: content-box;
+    margin: 2em 20%;
+    width: 11em;
+    height: 140px;
+    font-size: 3.5em;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
