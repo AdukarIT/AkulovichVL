@@ -32,8 +32,8 @@
 ## node.js + npm + sass
 [Домашнее задание 10](https://github.com/AdukarIT/AkulovichVL/tree/master/HW-10 "Папка HW-10")
 ## Итоговая работа по верстке
-[Страница "Приветствие"](https://github.com/SpUnity/spunity.github.io/blob/master/BUS/public/welcome.html)
+[Страница "Приветствие"](https://github.com/SpUnity/spunity.github.io/blob/master/BUS/public/welcome)
 
-[Страница "Главная"](https://github.com/SpUnity/spunity.github.io/blob/master/BUS/public/index.html)
+[Страница "Главная"](https://github.com/SpUnity/spunity.github.io/blob/master/BUS/public/index)
 
-[Страница "Блог"](https://github.com/SpUnity/spunity.github.io/blob/master/BUS/public/blog.html)
+[Страница "Блог"](https://github.com/SpUnity/spunity.github.io/blob/master/BUS/public/blog)
