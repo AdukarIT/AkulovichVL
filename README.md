@@ -31,3 +31,9 @@
 [Домашнее задание 9 (исправленное Задание 1)](https://github.com/AdukarIT/AkulovichVL/tree/master/HW-9 "Папка HW-9")
 ## node.js + npm + sass
 [Домашнее задание 10](https://github.com/AdukarIT/AkulovichVL/tree/master/HW-10 "Папка HW-10")
+## Итоговая работа по верстке
+[Страница "Приветствие"](https://github.com/SpUnity/spunity.github.io/blob/master/BUS/public/welcome.html)
+
+[Страница "Главная"](https://github.com/SpUnity/spunity.github.io/blob/master/BUS/public/index.html)
+
+[Страница "Блог"](https://github.com/SpUnity/spunity.github.io/blob/master/BUS/public/blog.html)
