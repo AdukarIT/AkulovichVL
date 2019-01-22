@@ -39,3 +39,5 @@
 [Страница "Блог"](https://spunity.github.io/BUS/public/blog.html)
 ## Операторы. Циклы
 [JavaScript ДЗ 1](https://github.com/AdukarIT/AkulovichVL/tree/master/JS_hw_1 "Папка JS_hw_1")
+## Функции
+[JavaScript ДЗ 2](https://github.com/AdukarIT/AkulovichVL/tree/master/JS_hw_2 "Папка JS_hw_2")
