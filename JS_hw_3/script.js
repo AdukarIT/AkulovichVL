@@ -1,26 +1,26 @@
 // Task #5
 
-/*
+
 function typeNumbersExceptZero() {
   var num = 0;
   do {
-    num = +prompt('Введите число:','1');
+    num = +prompt('Введите число:','1'); // подумайте про строки
   } while (num);
 }
 
-typeNumbersExceptZero();
-*/
+typeNumbersExceptZero(); // в задаче не указано про вернуть, но вы должны понимать, 
+                        // что без возврата или каких-либо изменений функции лишены смысла
 
 // Task #6
 
-/*
+
 function showAmountTypedNumbers() {
   var num = 0;
   var sum = 0;
   var counter = 0;
 
   do {
-    num = +prompt('Введите число:','1');
+    num = +prompt('Введите число:','1'); // про строки
     sum += num;
     counter++;
     console.log('Сумма введенных вами числе = ' + sum);
@@ -34,7 +34,7 @@ alert(showAmountTypedNumbers());
 
 // Task #7
 
-/*
+
 function checkSimpleNumber(number) {
   for (var i = 2; i < number; i++) {
     if (!(number % i)) {
@@ -46,11 +46,11 @@ function checkSimpleNumber(number) {
 }
 
 console.log(checkSimpleNumber(19));
-*/
+
 
 // Task #8
 
-/*
+
 function nameSeasonForMonth(monthNumber) {
   switch (monthNumber) {
     case 1:
@@ -75,23 +75,23 @@ function nameSeasonForMonth(monthNumber) {
 }
 
 nameSeasonForMonth(12);
-*/
+
 
 // Task #9
 
-/*
+
 function showNumbersConnectedWithSeven() {
   for (var i = 99; i >= 10; i--) {
-    if ((!((i - 7) % 10)) || (!(i % 7))) {
+    if ((!((i - 7) % 10)) || (!(i % 7))) { // такое лучше выводить в функцию
       console.log(i);
     }
   }
 }
 
 showNumbersConnectedWithSeven();
-*/
 
-/*
+
+
 function showAmountDeviders(number) {
   counter = 0;
 
@@ -113,11 +113,11 @@ function sortOutNumbers() {
 }
 
 sortOutNumbers();
-*/
+
 
 // Task #11
 
-/*
+
 function showAmountDeviders(number) {
   counter = 0;
 
@@ -139,11 +139,11 @@ function sortOutNumbers(firstNumber, lastNumber) {
 }
 
 sortOutNumbers(15, 24);
-*/
+
 
 // Task #12 (при условии, что 1 Кб = 1000 б и т.д.)
 
-/*
+
 function countBytes(size, unit) {
   var multiplier = 1;
 
@@ -163,11 +163,11 @@ function countBytes(size, unit) {
 }
 
 console.log(countBytes(12, 'Мб'));
-*/
+
 
 // Task #13
 
-/*
+
 function findBiggestCommonDevider(firstNumber, secondNumber) {
   while (firstNumber != 0 && secondNumber != 0) {
     if (firstNumber - secondNumber > 0) {
@@ -181,11 +181,11 @@ function findBiggestCommonDevider(firstNumber, secondNumber) {
 }
 
 console.log(findBiggestCommonDevider(72, 512));
-*/
+
 
 // Task #14
 
-/*
+
 function findBiggestCommonDevider(firstNumber, secondNumber) {
   var devider = 0;
 
@@ -206,11 +206,11 @@ function findBiggestCommonDevider(firstNumber, secondNumber) {
 }
 
 console.log(findBiggestCommonDevider(512, 48));
-*/
+
 
 // Task #15
 
-/*
+
 function words(n) {
   var pencil = ' карандаш';
 
@@ -224,15 +224,15 @@ function words(n) {
 }
 
 console.log(words(11));
-*/
+
 
 // Task #16
 
-/*
+
 function isNumberSumOfTwoSquares(number) {
   for (var i = 0; i < 10; i++) {
     for (var j = i; j < 10; j++) {
-      if (number == j * j + i * i) {
+      if (number == j * j + i * i) { // j**2, i**2 и лучше никогда не используйте сравнение с приведением
         console.log(j);
         console.log(i);
         return true;
@@ -243,5 +243,5 @@ function isNumberSumOfTwoSquares(number) {
   return false;
 }
 
-console.log(isNumberSumOfTwoSquareNumbers(162));
-*/
+console.log(isNumberSumOfTwoSquareNumbers(162)); // следите за названиями переменными
+
