@@ -1,12 +1,12 @@
 // Task #1
 
-/*
+
 var flatNumber = +prompt('Введите номер вашей квартиры', '');
 var porchNumber = 1;
 var tempFlatNumber = flatNumber;
 
 if (flatNumber >= 1 && flatNumber <= 100) {
-  while (tempFlatNumber > 20) {
+  while (tempFlatNumber > 20) { // хорошо!
     tempFlatNumber -= 20;
     porchNumber++ ;
   }
@@ -15,11 +15,11 @@ if (flatNumber >= 1 && flatNumber <= 100) {
 } else {
   console.log('Квартиры с номером ' + flatNumber + ' в нашем доме нет!');
 }
-*/
+
 
 //Task #2
 
-/*
+
 var autoBrand = prompt('Введите марку авто','');
 
 switch (autoBrand) {
@@ -56,11 +56,11 @@ switch (autoBrand) {
   default:
     console.log(autoBrand + ' - страна происхождения неизвестна');
 }
-*/
+
 
 //Task #3
 
-/*
+
 var year = +prompt('Введите високосный год','');
 
 if (!(isNaN(year)) && !(year % 4)) {
@@ -68,11 +68,11 @@ if (!(isNaN(year)) && !(year % 4)) {
 } else {
   console.log('Ваш ввод неверен!');
 }
-*/
+
 
 //Task #4
 
-/*
+
 var number = +prompt('Введите число от 1 до 20','');
 
 if (number >= 1 && number <= 20) {
@@ -82,11 +82,11 @@ if (number >= 1 && number <= 20) {
 } else {
   console.log('Вы ввели невверное число. Так не пойдет!');
 }
-*/
+
 
 //Task #5
 
-/*
+
 var sum = 0;
 
 for (var i = 1; i <= 50; i++) {
@@ -97,17 +97,17 @@ for (var i = 1; i <= 50; i++) {
 }
 
 console.log('Сумма всех нечетных чисел от 1 до 50 равна ' + sum);
-*/
+
 
 //Task #6
 
-/*
+
 var firstNumberFibonacci = 1;
 var secondNumberFibonacci = 1;
 var nextNumberFibonacci = 0;
 
 console.log('Число Фибоначчи номер ' + 1 + ' равно ' + firstNumberFibonacci);
-console.log('Число Фибоначчи номер ' + 2 + ' равно ' + secondNumberFibonacci);
+console.log('Число Фибоначчи номер ' + 2 + ' равно ' + secondNumberFibonacci); // можно спрятать в цикл
 
 for (var i = 3; i <= 15; i++) {
   nextNumberFibonacci = firstNumberFibonacci + secondNumberFibonacci;
@@ -115,14 +115,14 @@ for (var i = 3; i <= 15; i++) {
   firstNumberFibonacci = secondNumberFibonacci;
   secondNumberFibonacci = nextNumberFibonacci;
 }
-*/
+
 
 //Task #7-1
-/*
+
 var chessDesk = '';
 
 for (var i = 1; i <= 8; i++) {
-  if ((i % 2)) {
+  if ((i % 2)) { // хорошо!
     chessDesk += ' # # # #\n';
   } else {
     chessDesk += '# # # # \n';
@@ -130,11 +130,11 @@ for (var i = 1; i <= 8; i++) {
 }
 
 console.log(chessDesk);
-*/
+
 
 // Task #7-2
 
-/*
+
 var chessCell = '';
 var cellColor = true;
 var chessDesk = '';
@@ -155,4 +155,4 @@ for (var i = 1; i <= 32; i++) {
 }
 
 console.log(chessDesk);
-*/
+
