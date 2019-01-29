@@ -1,6 +1,6 @@
 //Task #1
 
-/*
+
 function findSmallestNumber(a, b, c) {
   if (a - b <= 0 && a - c < 0) {
     return a;
@@ -12,22 +12,22 @@ function findSmallestNumber(a, b, c) {
 }
 
 console.log(findSmallestNumber(2, 2, 1));
-*/
+
 
 //Task #2
 
-/*
+
 function countAmountSec(days, hours, minutes) {
-  var sec = days * 24 * 60 * 60 + hours * 60 * 60 + minutes * 60;
+  var sec = days * 24 * 60 * 60 + hours * 60 * 60 + minutes * 60; // выглядит не очень
   return sec;
 }
 
 console.log(countAmountSec(1, 3, 25));
-*/
+
 
 //Task #3
 
-/*
+
 function countFactorial(n) {
   if (n == 0) {
     return 1;
@@ -37,11 +37,11 @@ function countFactorial(n) {
 }
 
 console.log(countFactorial(1));
-*/
+
 
 //Task #4
 
-/*
+
 function reverseNumber(n) {
   var newNumber = '';
   var counter = 0;
@@ -61,11 +61,11 @@ function reverseNumber(n) {
 }
 
 console.log(+reverseNumber(123000789));
-*/
+
 
 //Task #5
 
-/*
+
 function solveSquareEquation(a, b, c) {
   var discriminant = (b ** 2) - 4 * a * c;
 
@@ -84,4 +84,5 @@ function solveSquareEquation(a, b, c) {
 }
 
 console.log(solveSquareEquation(2, 5, -3));
-*/
+
+// прекрасно!
