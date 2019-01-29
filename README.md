@@ -43,3 +43,5 @@
 [JavaScript ДЗ 2](https://github.com/AdukarIT/AkulovichVL/tree/master/JS_hw_2 "Папка JS_hw_2")
 ## Поиск ошибок и отладка кода. Практика
 [JavaScript ДЗ 3](https://github.com/AdukarIT/AkulovichVL/tree/master/JS_hw_3 "Папка JS_hw_3")
+## Массивы
+[JavaScript ДЗ 4](https://github.com/AdukarIT/AkulovichVL/tree/master/JS_hw_4 "Папка JS_hw_4")
