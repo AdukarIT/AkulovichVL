@@ -45,3 +45,5 @@
 [JavaScript ДЗ 3](https://github.com/AdukarIT/AkulovichVL/tree/master/JS_hw_3 "Папка JS_hw_3")
 ## Массивы
 [JavaScript ДЗ 4](https://github.com/AdukarIT/AkulovichVL/tree/master/JS_hw_4 "Папка JS_hw_4")
+## Объекты
+[JavaScript ДЗ 5](https://github.com/AdukarIT/AkulovichVL/tree/master/JS_hw_5 "Папка JS_hw_5")
