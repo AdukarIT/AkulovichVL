@@ -3,7 +3,7 @@
 
 function checkPropertyInObject(obj, string) {
   if (string in obj) {
-    return alert('Есть!');
+    return alert('Есть!'); // в условиях нет вывода алерта
   } else {
     return alert('Такого свойства нет!');
   }
@@ -17,7 +17,7 @@ checkPropertyInObject({name: 'Luke', age: 'unknown'}, 'nam');
 var recipeForFourPortions = {
   name: 'knedliki',
   portions: 4,
-  'flour grams': 1000,
+  'flour grams': 1000, // лучше всеже flourGrams или вовсе flour (обычно вы будете знать систему исчисления)
   'milk milliliters': 400,
   eggs: 2,
   'salt grams': 10,
@@ -29,7 +29,7 @@ function getRecipeForOnePortion(recipe) {
 
   for (var key in recipe) {
     if (key !== 'name' && key !== 'portions') {
-      onePortion += ' ' + recipe[key] / recipe['portions'] + ' ' + key + ',';
+      onePortion += ' ' + recipe[key] / recipe['portions'] + ' ' + key + ','; // сложно читается, такое лучше разбивать, а то и вовсе выносить в функцию-хелпер
     }
   }
 
