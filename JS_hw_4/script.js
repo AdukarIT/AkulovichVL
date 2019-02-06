@@ -38,23 +38,15 @@ getNumbersMoreAverage(randomArray);
 
 //Task #3
 
-function findTwoSmallestNumbers(arr) {
+function findTwoSmallestNumbers(arr) { // исправил награмождение логики, но я бы тут конечно вообще отсортировал и вывел два первых
   var firstSmallestNumber = 1;
   var secondSmallestNumber = 1;
 
   for (var i = 0; i < arr.length; i++) {
-    if (arr[i] < firstSmallestNumber && arr[i] < secondSmallestNumber) {
-      if (firstSmallestNumber < secondSmallestNumber) {
-        secondSmallestNumber = arr[i];
-      } else {
-        firstSmallestNumber = arr[i];
-      }
-      continue;
-    }
     if (arr[i] < firstSmallestNumber) {
+      secondSmallestNumber = firstSmallestNumber;
       firstSmallestNumber = arr[i];
-    }
-    if (arr[i] < secondSmallestNumber) {
+    } else if (arr[i] < secondSmallestNumber) {
       secondSmallestNumber = arr[i];
     }
   }
