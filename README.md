@@ -47,3 +47,5 @@
 [JavaScript ДЗ 4](https://github.com/AdukarIT/AkulovichVL/tree/master/JS_hw_4 "Папка JS_hw_4")
 ## Объекты
 [JavaScript ДЗ 5](https://github.com/AdukarIT/AkulovichVL/tree/master/JS_hw_5 "Папка JS_hw_5")
+## Встроенные возможности JS
+[JavaScript ДЗ 6](https://github.com/AdukarIT/AkulovichVL/tree/master/JS_hw_6 "Папка JS_hw_6")
