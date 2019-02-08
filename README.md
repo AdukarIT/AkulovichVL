@@ -49,3 +49,5 @@
 [JavaScript ДЗ 5](https://github.com/AdukarIT/AkulovichVL/tree/master/JS_hw_5 "Папка JS_hw_5")
 ## Встроенные возможности JS
 [JavaScript ДЗ 6](https://github.com/AdukarIT/AkulovichVL/tree/master/JS_hw_6 "Папка JS_hw_6")
+## Продвинутый JS
+[JavaScript ДЗ 7](https://github.com/AdukarIT/AkulovichVL/tree/master/JS_hw_7 "Папка JS_hw_7")
