@@ -21,7 +21,7 @@ function recursiveSearchTags(doc, tag) {
 
 //Task #4
 
-var arrWords = ['Почему', 'здесь', 'есть', 'события', '?'];
+var arrWords = ['Почему', 'здесь', 'есть', 'события', '?']; // да нету там событий) я, вроде, в этот же день их убрал
 
 let unorderedList = document.createElement('ul');
 document.body.insertBefore(unorderedList, document.body.children[0]);
@@ -80,11 +80,11 @@ function normalizeClassNames() {
       for (let j = 0; j < elem.classList.length; j++) {
         let tempclass = elem.classList[j];
 
-        if (tempclass.indexOf('-') > -1) {
+        if (tempclass.indexOf('-') > -1) { // -class
           elem.classList.remove(tempclass);
 
           tempclass = tempclass.slice(0, tempclass.indexOf('-')) + tempclass[tempclass.indexOf('-') + 1].toUpperCase() +
-          tempclass.slice(tempclass.indexOf('-') + 2, tempclass.length);
+          tempclass.slice(tempclass.indexOf('-') + 2, tempclass.length); // нечитаемо
 
           elem.classList.add(tempclass);
 
