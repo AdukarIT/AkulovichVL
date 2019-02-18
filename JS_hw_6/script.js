@@ -61,7 +61,7 @@ function findMostFrequentSymbol(str) {
   var frequentSymbol = '',
   amountRepeat = 0;
 
-  for (var i = 0; i < str.length - (amountRepeat - 1); i++) {
+  for (var i = 0; i < str.length - (amountRepeat - 1); i++) { // трудный для понимания кусок логики str.length - (amountRepeat - 1), возможно имеет смысл оставить комментарий или вывести в функцию
     var concurrence = 1;
 
     for (var j = i + 1; j < str.length; j++) {
@@ -88,7 +88,7 @@ function findMostFrequentSymbol(str) {
 function changeString(str, search, replace) {
   while (str.indexOf(search) >= 0) {
     str = str.slice(0, str.indexOf(search)) + replace
-    + str.slice(str.indexOf(search) + search.length, str.length);
+    + str.slice(str.indexOf(search) + search.length, str.length); // точно необходимо разбивать
   }
 
   return str;
@@ -192,9 +192,9 @@ function getDayOfWeekFromUser() {
 
 function getDaysBeforeBirthday() {
   var userBirthday = prompt('Введите свой день рождения в формате ДД-ММ-ГГГГ','ДД-ММ-ГГГГ'),
-  userBirthdayThisYear = new Date(2019, +userBirthday.slice(3, 5) - 1, +userBirthday.slice(0, 2)),
+  userBirthdayThisYear = new Date(2019, +userBirthday.slice(3, 5) - 1, +userBirthday.slice(0, 2)), // что прячется за +userBirthday.slice(3, 5) - 1? такое правильно выносить в функцию и давать ей название
   now = new Date(),
-  dateDifference = Math.ceil((userBirthdayThisYear - now) / 1000 / 60 / 60 / 24);
+  dateDifference = Math.ceil((userBirthdayThisYear - now) / 1000 / 60 / 60 / 24); // выглядит странно
 
   if (dateDifference < 0) {
     var userBirthdayNextYear = new Date(2020, +userBirthday.slice(3, 5) - 1, +userBirthday.slice(0, 2));
@@ -208,7 +208,7 @@ function getDaysBeforeBirthday() {
 
 //console.log(getDaysBeforeBirthday());
 
-function getDayWithSomeThousandsDaysFromBirthday() {
+function getDayWithSomeThousandsDaysFromBirthday() { // невозможно читать
   var userBirthday = prompt('Введите свой день рождения в формате ДД-ММ-ГГГГ','ДД-ММ-ГГГГ'),
   dateBirthday = new Date(+userBirthday.slice(6, 10), +userBirthday.slice(3, 5) - 1, +userBirthday.slice(0, 2)),
   now = new Date(),
