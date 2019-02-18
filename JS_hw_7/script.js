@@ -4,7 +4,7 @@
 
 var arr = ['abf', 'sdfk', 'fdbaa', 'dfdfa']
 
-function countAmountSameSymbols(symbolUnicode) { // да, задача неясна, но лучше не изменять внешние переменные внутри функции, передавайте и возвращайте вместо
+function countAmountSameSymbols(symbolUnicode) { // да, задача неясно, но лучше не изменять внешние переменные внутри функции, передавайте и возвращайте вместо
   var str = String.fromCharCode(symbolUnicode),
   counter = 0;
 
