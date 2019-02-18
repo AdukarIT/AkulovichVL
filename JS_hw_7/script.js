@@ -4,7 +4,7 @@
 
 var arr = ['abf', 'sdfk', 'fdbaa', 'dfdfa']
 
-function countAmountSameSymbols(symbolUnicode) {
+function countAmountSameSymbols(symbolUnicode) { // да, задача неясна, но лучше не изменять внешние переменные внутри функции, передавайте и возвращайте вместо
   var str = String.fromCharCode(symbolUnicode),
   counter = 0;
 
@@ -54,7 +54,7 @@ console.log(countOfB(['abf', 'sdfk', 'fdbaa', 'dfdfa']));
 // Во всех следующих задача указан массив 'data' из файла uscities.js
 
 function findCitiesFromState(state) {
-  var arr = data.filter(function(city) {
+  var arr = data.filter(function(city) { // тут опять лучше передать эту дату
     return city.state == state;
   });
 
@@ -97,7 +97,7 @@ function findCitiesWithFirstLetterDAndSortThem() {
   //console.log(citiesD);
 
   return citiesD.sort(function(a, b) {
-    if (a.city > b.city) {
+    if (a.city > b.city) { // return a.city > b. city ? 1 : 2;
       return 1;
     } else {
       return -1;
@@ -116,7 +116,7 @@ function createNewObjectStatesFromArrayCities() {
     if (!states[city['state']]) {
       states[city['state']] = [];
       states[city['state']][0] = {
-        'city': city['city'],
+        'city': city['city'], // тут необязательны ковычки на ключах
         'population': city['population'],
         'rank': city['rank']
       };
