@@ -53,3 +53,5 @@
 [JavaScript ДЗ 7](https://github.com/AdukarIT/AkulovichVL/tree/master/JS_hw_7 "Папка JS_hw_7")
 ## DOM. Работа со страницей
 [JavaScript ДЗ 8](https://github.com/AdukarIT/AkulovichVL/tree/master/JS_hw_8 "Папка JS_hw_8")
+## События. Координаты на странице
+[JavaScript ДЗ 9](https://github.com/AdukarIT/AkulovichVL/tree/master/JS_hw_9 "Папка JS_hw_9")
