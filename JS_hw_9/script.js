@@ -1,5 +1,5 @@
 'use strict';
-/*
+
 // Task #1
 
 var input = document.createElement('input'),
@@ -161,18 +161,6 @@ imageDefault.addEventListener('click', function() {
 buttonClose.addEventListener('click', function() {
   document.body.removeChild(blackout);
 });
-*/
-
-
-
-
-
-
-
-
-
-
-
 
 
 //bottom
