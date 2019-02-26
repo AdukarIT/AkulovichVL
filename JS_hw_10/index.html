@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style media="screen">
+    .error {
+      color: red;
+      display: none;
+    }
+
+    .empty {
+      color: red;
+    }
+
+    .green {
+      outline: 3px solid #afa;
+    }
+
+    .red {
+      outline: 3px solid #faa;
+    }
+  </style>
+</head>
+<body>
+  <b>Task #1</b>
+  <form name="task_1" action="index.html" method="post">
+    <span>Name</span>
+    <input id="name" type="text">
+    <span class="error" id="nameError">Неверный формат ввода. Допустимы только буквы латинского алфавита, цифры и символ "_".</span>
+    <span class="empty" id="nameEmpty">Поле пустое</span>
+    <br>
+    <span>Minutes</span>
+    <input id="minutes" type="text">
+    <span class="error" id="minutesError">Неверный формат ввода. Допустимы только цифры</span>
+    <span class="empty" id="minutesEmpty">Поле пустое</span>
+  </form>
+  <hr>
+
+  <b>Task #2</b>
+  <form name="task_2" action="mailto:address@domen.domen" method="post">
+    <input id="info" type="text">
+    <br>
+    <input id="sent" type="submit" value="Submit">
+    <input id="reset" type="button" value="Reset">
+  </form>
+  <hr>
+
+  <b>Task #3</b>
+  <form name="task_3" action="index.html" method="post">
+    <span>Text</span>
+    <input type="text">
+    <br>
+    <span>Number</span>
+    <input type="number">
+    <br>
+    <span>Email</span>
+    <input type="email">
+    <br>
+    <span>Url</span>
+    <input type="url">
+    <br>
+    <span>Tel</span>
+    <input type="tel" value="+375-">
+    <br>
+    <span>Password</span>
+    <input type="password">
+    <br>
+    <button id="check" type="button">Check</button>
+  </form>
+  <hr>
+
+  <script src="script.js" type="text/javascript">
+
+  </script>
+</body>
+</html>
