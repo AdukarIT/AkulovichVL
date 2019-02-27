@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style media="screen">
+    .add-event {
+      display: flex;
+      justify-content: center;
+      position: relative;
+    }
+
+    .add-event-time {
+      width: 3%;
+      margin: 0 5px;
+    }
+
+    .add-event-description {
+      width: 50%;
+      margin: 0 5px;
+    }
+
+    .add-event_error {
+      color: #f00;
+      display: none;
+      position: absolute;
+    }
+
+    .actual-events {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .actual-events-item,.actual-events-caption {
+      display: flex;
+      justify-content: center;
+      border-bottom: 1px solid #888;
+      width: 100%;
+    }
+
+    .actual-events-caption-status, .actual-events-status {
+      width: 3%;
+      height: 1.4rem;
+    }
+
+    .actual-events-caption-time, .actual-events-time {
+      width: 4%;
+      text-align: center;
+    }
+
+    .actual-events-caption-description, .actual-events-description {
+      width: 65%;
+      text-align: center;
+    }
+
+    .actual-events-caption-action, .actual-events-action {
+      width: 8%;
+    }
+
+    .event-status-ready {
+      background-color: #3f3;
+    }
+
+    .event-status-not-ready {
+      background-color: #f33;
+    }
+  </style>
+</head>
+<body>
+
+  <form class="add-event" name="add_event">
+    <span>Время события (ЧЧ:ММ):</span>
+    <input class="add-event-time" type="text" value="00:00">
+    <span>Описание события:</span>
+    <input class="add-event-description" type="text">
+    <button id="addition" type="button">Добавить событие</button>
+    <span class="add-event_error">!!!Неверный формат времени!!!</span>
+  </form>
+  <hr>
+  <div class="actual-events">
+    <div class="actual-events-caption">
+      <p class="actual-events-caption-status">Статус</p>
+      <p class="actual-events-caption-time">Время</p>
+      <p class="actual-events-caption-description">Описание</p>
+      <p class="actual-events-caption-action">Событие:</p>
+    </div>
+  </div>
+  <span>* Напоминание установлено на следующий день</span>
+
+  <script src="script.js" type="text/javascript">
+
+  </script>
+</body>
+</html>

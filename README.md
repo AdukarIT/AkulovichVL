@@ -57,3 +57,5 @@
 [JavaScript ДЗ 9](https://github.com/AdukarIT/AkulovichVL/tree/master/JS_hw_9 "Папка JS_hw_9")
 ## Формы
 [JavaScript ДЗ 10](https://github.com/AdukarIT/AkulovichVL/tree/master/JS_hw_10 "Папка JS_hw_10")
+## ООП в Javascript
+[JavaScript ДЗ 11](https://github.com/AdukarIT/AkulovichVL/tree/master/JS_hw_11 "Папка JS_hw_11")
