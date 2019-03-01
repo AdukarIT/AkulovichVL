@@ -44,7 +44,7 @@ formName.addEventListener('input', function(e) {
       errorMinutes.style.display = 'none';
     }
   }
-});
+}); // у вас в коде задачи много дублирований, попробуйте подумать над оптимизацией, если не придумаете - сообщите на паре
 
 //Task #2
 
@@ -172,7 +172,7 @@ checkButton.addEventListener('click', function() {
   if (checkMessage) {
     alert('Все поля успешно прошли проверку');
   }
-});
+}); // всё хорошо, но опять оптимизация
 
 //Task #5
 
@@ -225,6 +225,7 @@ function deleteReapetingWords(arr) {
 }
 
 deleteReapetingWords(words); //"cow milk cowboy.  milkshake,-farm+=night"
+// так а пробелы?
 
 
 //bottom
