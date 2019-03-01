@@ -61,7 +61,7 @@ form.addEventListener('click', function(e) {
 //Task #4
 
 var buttonAlert = document.createElement('button'),
-textButtonAlert = document.createTextNode('THFC 1882'),
+textButtonAlert = document.createTextNode('THFC 1882'), // Tottenham Hotspur Football Club??
 buttonDisable = document.createElement('button'),
 textButtonDisable = document.createTextNode('Remove Event')
 ;
@@ -131,7 +131,7 @@ border.addEventListener('mouseover', function() {
 });
 
 border.addEventListener('mouseout', function() {
-  border.replaceChild(imageDefault, imageNew);
+  border.replaceChild(imageDefault, imageNew); // я бы тут просто стили менял
 });
 
 //Task #7
@@ -160,7 +160,7 @@ imageDefault.addEventListener('click', function() {
 
 buttonClose.addEventListener('click', function() {
   document.body.removeChild(blackout);
-});
+}); // последние задачи у вас совсем громоздкие получились, понятно что вы тренились, но лучше стили уносить из джаваскрипта, если иное не предусмотрено логикой фреймворка или библиотеки
 
 
 //bottom
