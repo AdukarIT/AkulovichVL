@@ -59,3 +59,5 @@
 [JavaScript ДЗ 10](https://github.com/AdukarIT/AkulovichVL/tree/master/JS_hw_10 "Папка JS_hw_10")
 ## ООП в Javascript
 [JavaScript ДЗ 11](https://github.com/AdukarIT/AkulovichVL/tree/master/JS_hw_11 "Папка JS_hw_11")
+## Библиотека jQuery
+[JavaScript ДЗ 12](https://github.com/AdukarIT/AkulovichVL/tree/master/JS_hw_12 "Папка JS_hw_12")
