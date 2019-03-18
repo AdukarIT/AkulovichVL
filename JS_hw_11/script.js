@@ -22,7 +22,7 @@ function Student(name, surname, year) {
     ;
 
     if (thisYear - year < 6) {
-      alert(this.getFullName() + ' учиться на ' + (thisYear - year) + ' курсе');
+      alert(this.getFullName() + ' учиться на ' + (thisYear - year) + ' курсе'); // такое лучше в функцию
     } else {
       alert(this.getFullName() + ' уже все умеет!');
     }
@@ -59,7 +59,7 @@ function Sandwiches() {
       sum += this.compositionCalories[key];
     };
 
-    alert('Ваш ' + this.name + ' содержит ' + sum + ' ккал!');
+    alert('Ваш ' + this.name + ' содержит ' + sum + ' ккал!'); // такое лучше в функцию
   };
 
   this.getCost = function() {
@@ -75,7 +75,7 @@ function Sandwiches() {
     cents = sum - dollars * 100;
 
     if (dollars) {
-      alert('Ваш ' + this.name + ' стоит ' + dollars + ' доллар и ' + cents + ' центов!');
+      alert('Ваш ' + this.name + ' стоит ' + dollars + ' доллар и ' + cents + ' центов!'); // такое лучше в функцию
     } else {
       alert('Ваш ' + this.name + ' стоит ' + cents + ' центов!');
     }
@@ -84,7 +84,7 @@ function Sandwiches() {
 }
 
 function Hamburger() {
-  Sandwiches.call(this);
+  Sandwiches.call(this); // бергеры разве сендвичи?
 
   this.name = 'Гамбургер';
 }
@@ -150,9 +150,9 @@ function Recalling() {
   function checkSetTime() {
     var regTime = /^[0-9]{2}\:[0-9]{2}$/;
 
-    if (!regTime.test(timeForm.value) || +timeForm.value.slice(0, 2) >= 24) {
+    if (!regTime.test(timeForm.value) || +timeForm.value.slice(0, 2) >= 24) { // некрасия проверка, такое лучше выносить в функцию с осмысленным названием
       warningTime.style.display = 'block';
-      warningTime.style.top = form.offsetHeight+ form.offsetTop + 3 + 'px';
+      warningTime.style.top = form.offsetHeight+ form.offsetTop + 3 + 'px'; // такое лучше в функцию
       warningTime.style.left = timeForm.offsetLeft + 30 - warningTime.offsetWidth / 2 + 'px';
     } else {
       warningTime.style.display = 'none';
@@ -161,7 +161,7 @@ function Recalling() {
     return (regTime.test(timeForm.value) && +timeForm.value.slice(0, 2) < 24);
   }
 
-  function addClasses() {
+  function addClasses() { // возможно лучше представить как массив и пройтись по нему
     eventBlock.classList.add('actual-events-item');
     status.classList.add('event-status-not-ready');
     status.classList.add('actual-events-status');
@@ -213,7 +213,7 @@ function Recalling() {
 
     futureTime.setHours(userHours, userMinutes, 0);
 
-    if (futureTime - now < 0) {
+    if (futureTime - now < 0) { // проверка
       var tomorrow = now.getDate() + 1;
       futureTime.setDate(tomorrow);
       tomorrowEvent = true;
