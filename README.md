@@ -64,3 +64,5 @@
 ## Библиотека jQuery. AJAX и анимации
 [JavaScript ДЗ 13](https://github.com/AdukarIT/AkulovichVL/tree/master/JS_hw_13 "Папка JS_hw_13")
 ## [Проект Коллекция](https://spunity.github.io/collection/)
+## Библиотека jQuery. Плагины
+[JavaScript ДЗ 14](https://github.com/AdukarIT/AkulovichVL/tree/master/JS_hw_14 "Папка JS_hw_14")
